@@ -3,7 +3,7 @@ import { ADDTODO, DELETETODO } from '../actions';
 
 const initialState = []
 
-
+//戻り値に変更処理を書いてあげて、返してあげる
 export const todos = ( state = initialState, action ) => {
     switch ( action.type ) {
         case ADDTODO:

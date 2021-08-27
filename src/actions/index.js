@@ -20,8 +20,9 @@
 export const ADDTODO = 'addTodo';
 export const DELETETODO = 'deleteTodo';
 
-
+//データを渡したい、という事は引数
 export const addTodo = text => {
+    //astionオブジェクト
     return {
         type: ADDTODO,
         text: text, //text: textの省略
